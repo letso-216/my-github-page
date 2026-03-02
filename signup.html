@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Pack | BIG D's GYM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">BIG D's GYM</div>
+            <ul>
+                <li><a href="index.html">The Floor</a></li>
+                <li><a href="about.html">About & Founder</a></li>
+                <li><a href="signup.html">Join the Pack</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="signup-container">
+        <h1>PICK YOUR PATH</h1>
+        <p class="form-intro">The windows are open. Are you coming in or staying on the sidewalk?</p>
+
+        <form id="gym-signup">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="email" placeholder="email@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>Choose Your Intensity</label>
+                <select id="membership" required>
+                    <option value="" disabled selected>Select a plan...</option>
+                    <option value="breeze">The Breeze (Weekend Warrior) - $20/mo</option>
+                    <option value="draft">The Draft (Full Access) - $45/mo</option>
+                    <option value="hurricane">The Hurricane (With Personal Trainer) - $100/mo</option>
+                </select>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I understand the windows stay open even if it snows.</label>
+            </div>
+
+            <button type="submit" class="btn signup-btn">COMMENCE THE GRIND</button>
+        </form>
+
+        <div id="success-message" style="display:none;">
+            <h2>WELCOME TO THE PACK.</h2>
+            <p>Check your email. We'll see you at 5:00 AM.</p>
+        </div>
+    </main>
+
+    <script>
+        const form = document.getElementById('gym-signup');
+        const successMessage = document.getElementById('success-message');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            form.style.display = 'none';
+            successMessage.style.display = 'block';
+        });
+    </script>
+
+</body>
+</html>
