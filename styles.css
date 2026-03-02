@@ -185,7 +185,69 @@ nav ul li a {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+/* Signup Page Layout */
+.signup-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #222;
+    padding: 40px;
+    border: 2px solid #39FF14;
+    box-shadow: 10px 10px 0px #000;
+}
 
+.form-intro {
+    color: #39FF14;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    background: #111;
+    border: 1px solid #444;
+    color: white;
+    font-family: inherit;
+}
+
+.form-group input:focus {
+    border-color: #39FF14;
+    outline: none;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group input {
+    width: auto;
+}
+
+.signup-btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#success-message h2 {
+    color: #39FF14;
+}
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
