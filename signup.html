@@ -34,14 +34,27 @@
                 <label>Email Address</label>
                 <input type="email" id="email" placeholder="email@example.com" required>
             </div>
-
+  <label>Enter your gender:</label>
+            <div class="gender-group">
+                <input type="radio" name="gender" value="male" id="male" required />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female" />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="others" id="others" />
+                <label for="others">Others</label>
+            </div>
+            <label for="dob">Enter your Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required />
+            <label for="address">Enter your Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <input type="submit" value="Submit" />
             <div class="form-group">
                 <label>Choose Your Intensity</label>
                 <select id="membership" required>
                     <option value="" disabled selected>Select a plan...</option>
-                    <option value="breeze">The Breeze (Weekend Warrior) - $20/mo</option>
-                    <option value="draft">The Draft (Full Access) - $45/mo</option>
-                    <option value="hurricane">The Hurricane (With Personal Trainer) - $100/mo</option>
+                    <option value="breeze">The Breeze (Weekend Warrior) - P20/mo</option>
+                    <option value="draft">The Draft (Full Access) - P45/mo</option>
+                    <option value="hurricane">The Hurricane (With Personal Trainer) - P100/mo</option>
                 </select>
             </div>
 
