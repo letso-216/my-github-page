@@ -89,6 +89,14 @@
     <footer class="text-center py-4">
         <p>© 2026 BIG D's GYM | Windows: OPEN</p>
     </footer>
-
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        // Prevent actual form submission (since you are using GitHub Pages)
+        event.preventDefault();
+        
+        // Redirect the user
+        window.location.href = "success.html";
+    });
+</script>
 </body>
 </html>
