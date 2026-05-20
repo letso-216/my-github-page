@@ -1,151 +1,128 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-
-      <!-- LOGO + Brand Name -->
-      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-        <img src="LOGO.png" alt="Big D's Gym Logo" width="40" height="40"
-             style="border: 2px solid #fff; object-fit: cover;"
-             onerror="this.style.display='none'">
-        <span>BIG D's GYM</span>
-      </a>
-
-      <!-- Mobile toggle -->
-      <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Nav Links -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">THE FLOOR</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT &amp; FOUNDER</a></li>
-          <li class="nav-item"><a class="nav-link" href="signup.html">JOIN THE PACK</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
-        </ul>
-      </div>
-
-    </div>
-  </nav>
-</header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIG D's GYM | WE NEVER CLOSE THE WINDOWS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
-        <style>
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
- </style></head>
+    <style>
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
 <body>
-    
- 
 
-</body>
- 
-<section class="gallery-section">
-    <h2>INSIDE THE PACK</h2>
-    <div class="slideshow-container">
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    
-    <div class="carousel-inner">
-        <div class="carousel-item active">...</div>
-        <div class="carousel-item">...</div>
-    </div>
+    <!-- HEADER / NAV -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    
-</div>
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1000" style="width:100%">
-            <div class="caption">The Main Floor - Windows Wide Open</div>
-        </div>
+                <!-- LOGO + Brand -->
+                <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                    <img src="LOGO.png" alt="Big D's Gym Logo" width="40" height="40"
+                         style="border: 2px solid #fff; object-fit: cover;"
+                         onerror="this.style.display='none'">
+                    <span>BIG D's GYM</span>
+                </a>
 
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1000" style="width:100%">
-            <div class="caption">Morning Grind in the Elements</div>
-        </div>
+                <!-- Mobile toggle -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1000" style="width:100%">
-            <div class="caption">No AC, Just Action</div>
-        </div>
+                <!-- Nav Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">THE FLOOR</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT &amp; FOUNDER</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signup.html">JOIN THE PACK</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-</section>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>BIG D's GYM</h1>
-            <p class="slogan">"WE SLEEP WITH THE WINDOWS AND DOORS OPEN"</p>
-            <p class="description">No AC. No Excuses. Just Iron and Fresh Air.WE ARE NOT SCARED OF YOU!</p>
-            <a href="signup.html" class="btn">START TRAINING</a>
-        </div>
-    </section>
+            </div>
+        </nav>
+    </header>
 
-    <section class="info-section">
-        <h2>WHY THE WINDOWS ARE OPEN?</h2>
-        <p>. We train like animals.WE DONT EVEN NEED SECURITY GUARDS THEY ARE THERE JUST FOR DECORATION</p>
-    </section>
+    <!-- MAIN CONTENT -->
+    <main>
 
+        <!-- GALLERY / SLIDESHOW -->
+        <section class="gallery-section">
+            <h2>INSIDE THE PACK</h2>
+            <div id="gymCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1000"
+                             class="d-block w-100" alt="The Main Floor">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>The Main Floor - Windows Wide Open</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1000"
+                             class="d-block w-100" alt="Morning Grind">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Morning Grind in the Elements</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1000"
+                             class="d-block w-100" alt="No AC Just Action">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>No AC, Just Action</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button"
+                        data-bs-target="#gymCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                        data-bs-target="#gymCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>BIG D's GYM</h1>
+                <p class="slogan">"WE SLEEP WITH THE WINDOWS AND DOORS OPEN"</p>
+                <p class="description">No AC. No Excuses. Just Iron and Fresh Air. WE ARE NOT SCARED OF YOU!</p>
+                <a href="signup.html" class="btn">START TRAINING</a>
+            </div>
+        </section>
+
+        <!-- INFO -->
+        <section class="info-section">
+            <h2>WHY THE WINDOWS ARE OPEN?</h2>
+            <p>We train like animals. WE DONT EVEN NEED SECURITY GUARDS — THEY ARE THERE JUST FOR DECORATION.</p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
     <footer>
         <p>&copy; 2026 BIG D's GYM | Security by "Tiny" | Windows: OPEN</p>
     </footer>
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex-1].style.display = "block";
-}
-</script>
-    
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
 
 
 
